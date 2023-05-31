@@ -2,8 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
+## Info
+The model in this program was created using Teachable Machine, enabling you to classify 30 dog breeds. Additionally, you can find code for custom models that I have written for binary and multiclass classification in the "custom models" folder. However, using them will require your own data customization.
+
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`
