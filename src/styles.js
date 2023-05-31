@@ -33,6 +33,10 @@ export const StyledTitle = styled.h1`
     color: darkcyan;
     font-size: 80px;
   }
+  @media (max-width: 768px) {
+    font-size: 30px;
+    margin-top: 90px;
+  }
 `
 export const StyledImageContainer = styled.div`
   margin-bottom: 20px;
@@ -66,7 +70,10 @@ export const StyledImagePreview = styled.div`
 export const StyledImage = styled.img`
   max-width: 100%;
   height: auto;
-  max-height: 400px; 
+  max-height: 400px;
+  @media (max-width: 768px) {
+    max-height: 280px;
+  }
 \` ;
 
 `
