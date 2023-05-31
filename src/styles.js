@@ -10,6 +10,10 @@ export const AppLogo = styled.div`
   font-size: 50px;
   font-weight: bold;
   z-index: 9999;
+  @media (max-width: 768px) {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 `;
 
 export const IconContainer = styled.div`
@@ -22,6 +26,8 @@ export const StyledWrapper = styled.div`
   align-items: center;
   height: 100vh;
   background-color: #282c34;
+  margin: 0 auto;
+  z-index: 1;
 `
 export const StyledTitle = styled.h1`
   color: #fff;
@@ -34,7 +40,7 @@ export const StyledTitle = styled.h1`
     font-size: 80px;
   }
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 90px;
   }
 `
@@ -116,6 +122,9 @@ export const StyledInfoWrapper = styled.div`
 `
 
 export const StyledInfo = styled.div`
+  @media (max-width: 768px) {
+    font-size: 10px;
+  }
 `
 
 export const StyledDragnDropInfo = styled.p`
